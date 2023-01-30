@@ -11,6 +11,6 @@ def home(request):
         articles_obj = p.page(page)
     except :
         articles_obj = p.page(1)
-    return render(request, 'home.html' , context={"articles": articles_obj})
+    return render(request, 'home.html' , context={"articles": articles_obj, "page_obj":articles_obj})
         
     
