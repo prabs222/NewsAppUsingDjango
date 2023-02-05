@@ -4,24 +4,30 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Article',
+            name="Article",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('source', models.CharField(max_length=100)),
-                ('author', models.CharField(max_length=100)),
-                ('title', models.CharField(max_length=100)),
-                ('url', models.URLField()),
-                ('image_url', models.URLField()),
-                ('content', models.TextField()),
-                ('created_at', models.CharField(max_length=100)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("source", models.CharField(max_length=100)),
+                ("author", models.CharField(max_length=100)),
+                ("title", models.CharField(max_length=100)),
+                ("url", models.URLField()),
+                ("image_url", models.URLField()),
+                ("content", models.TextField()),
+                ("created_at", models.CharField(max_length=100)),
             ],
         ),
     ]

@@ -4,50 +4,49 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('home', '0001_initial'),
+        ("home", "0001_initial"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='article',
-            name='description',
+            model_name="article",
+            name="description",
             field=models.TextField(blank=True, null=True),
         ),
         migrations.AlterField(
-            model_name='article',
-            name='author',
+            model_name="article",
+            name="author",
             field=models.CharField(blank=True, max_length=100, null=True),
         ),
         migrations.AlterField(
-            model_name='article',
-            name='content',
+            model_name="article",
+            name="content",
             field=models.TextField(blank=True, null=True),
         ),
         migrations.AlterField(
-            model_name='article',
-            name='created_at',
+            model_name="article",
+            name="created_at",
             field=models.CharField(blank=True, max_length=100, null=True),
         ),
         migrations.AlterField(
-            model_name='article',
-            name='image_url',
+            model_name="article",
+            name="image_url",
             field=models.URLField(blank=True, null=True),
         ),
         migrations.AlterField(
-            model_name='article',
-            name='source',
+            model_name="article",
+            name="source",
             field=models.CharField(blank=True, max_length=100, null=True),
         ),
         migrations.AlterField(
-            model_name='article',
-            name='title',
+            model_name="article",
+            name="title",
             field=models.CharField(blank=True, max_length=100, null=True),
         ),
         migrations.AlterField(
-            model_name='article',
-            name='url',
+            model_name="article",
+            name="url",
             field=models.URLField(blank=True, null=True),
         ),
     ]
