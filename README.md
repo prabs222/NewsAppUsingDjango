@@ -104,9 +104,6 @@ Superuser created successfully
 
 - Latest News updated every 1 hour through cron job.
 
-## Contributing
-
-Contributions are always welcome!
 
 ## Support++
 
