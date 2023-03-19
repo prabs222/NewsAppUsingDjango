@@ -2,8 +2,6 @@
 
 KhabarDekho is a portal in which users can read the daily trending news according to their location. In this project news API has been used to fetch the news.
 
-[![GitHub issues](https://img.shields.io/github/issues/prabs222/NewsAppUsingDjango)](https://github.com/prabs222/NewsAppUsingDjango/issues)
-[![GitHub forks](https://img.shields.io/github/forks/prabs222/NewsAppUsingDjango)](https://github.com/prabs222/NewsAppUsingDjango/network)
 [![GitHub stars](https://img.shields.io/github/stars/prabs222/NewsAppUsingDjango)](https://github.com/prabs222/NewsAppUsingDjango/stargazers)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 <br>
